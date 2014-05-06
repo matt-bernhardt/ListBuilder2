@@ -1,0 +1,20 @@
+{
+  "name": "ListBuilder2",
+  "version": "0.1.0",
+  "description": "A rebuild of ListBuilder, now using tools like Grunt",
+  "main": "listbuilder2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ListBuilder2"
+  },
+  "author": "Matt Bernhardt",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "jshint": "^2.5.0",
+    "nodeunit": "^0.8.7"
+  }
+}
