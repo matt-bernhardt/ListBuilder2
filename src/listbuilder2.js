@@ -84,7 +84,7 @@ window.app.listbuilder = {
 			$(option).attr("class","option");
 			$(option).attr("data-value",e.value);
 			$(option).append(e.text);
-			if(e.selected==false) {
+			if(e.selected===false) {
 				$(unselected).append(option);
 			} else {
 				$(selected).append(option);
